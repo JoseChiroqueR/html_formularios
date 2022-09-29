@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea HTML_Formularios de Juan Rivas</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <p>
+          <input type="date" name="fecha"/>
+          Subir archivo <input type="file" name="archivosubido"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <input type="radio" name="procesador" value="procesadoramd" /> AMD
+          <input type="radio" name="procesador" value="procesadorintel_i5"/> Intel
+          <input type="radio" name="procesador" value="procesadorintel_i7" /> v
+        </p>
+      </div>
+      <div>
+        <input type="text" placeholder="Nombre" name="nombre" id="" required />
+        <input type="text" placeholder="Apellidos" name="apellidos" id="" required />
+        <input type="text" placeholder="Direccion" name="direccion" id="" required />
+       </div>
+       <p>
+        <input type="color" name="elegircolor"/> Elegir Color
+       </p>
+       <textarea name="texto" id="" cols="59" rows="6"
+        placeholder="Utilice este cuadro para escribir"></textarea>
+      <div>
+        <input type="date" name="fecha"/>
+
+        <select name="idioma">
+          <option value="ingles" >Ingles</option>
+          <option value="aleman" selected>Aleman</option>
+          <option value="frances">Frances</option>
+        </select>
+      </div>
+
+      <div>
+        <p>
+          <input type="time" name="hora"/>
+          Subir archivo <input type="file" name="fichero"/>
+        </p>
+      </div>
+
+      <div>
+        <p>
+          <input type="checkbox" name="sexo" value="sexomujer" /> Mujer
+          <input type="checkbox" name="sexo" value="idiomaaleman" /> Hombre
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

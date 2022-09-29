@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea HTML_Formularios de Juan Rivas</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <p>
+          <input type="radio" name="idioma" value="idiomaingles" /> Ingles
+          <input type="radio" name="idioma" value="idiomaaleman" /> Aleman
+          <input type="radio" name="idioma" value="idiomafrances" /> Frances
+        </p>
+      </div>
+
+      <div>
+        <select name="conector">
+          <!-- Opciones de la lista -->
+          <option value="usb" selected>USB</option>
+          <option value="paralelo">Paralelo</option>
+          <option value="pas2">PS2</option>
+          <!-- Opción por defecto -->
+        </select>
+      </div>
+      <br />
+      <div>
+        <input type="text" placeholder="Nombre" name="" id="" required />
+        <input type="text" placeholder="Apellidos" name="" id="" required />
+      </div>
+      <br />
+      <div>
+        <select name="combo" multiple>
+          <option value="hombre">Hombre</option>
+          <option value="mujer">mujer</option>
+        </select>
+      </div>
+
+      <div>
+        <p>
+          <input type="checkbox" name="sexo" value="sexomujer" /> Mujer
+          <input type="checkbox" name="sexo" value="sexohombre" /> Hombre
+        </p>
+
+        <input
+          type="date"
+          name="fecha"
+          min="2010-03-25"
+          max="2022-12-31"
+          step="1"
+        />
+      </div>
+    </form>
+  </body>
+</html>
